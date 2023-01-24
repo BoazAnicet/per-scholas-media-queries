@@ -1,0 +1,332 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media (max-width: 1680px) {
+  body {
+    background-color: #222;
+    color: black;
+  }
+
+  .navContainer {
+    background-color: black;
+    border: solid #333c3f;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* position: fixed; */
+  }
+
+  .left {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3px;
+  }
+
+  .mid {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3px;
+  }
+
+  .right {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3px;
+  }
+
+  .nlTab {
+    border: solid red;
+    border-width: 0.2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .mainContainer {
+    border: solid #333c3f;
+    height: 600vh;
+    display: flex;
+    justify-content: space-between;
+    border-width: 0.2px;
+  }
+
+  .leftBar {
+    border: solid #333c3f;
+    border-width: 0.2px;
+    width: 20%;
+    display: block;
+  }
+
+  .mainScrollContainer {
+    /* border: solid black; */
+    /* border-width: 0.2px; */
+    width: 60%;
+    display: block;
+    margin: 0 1rem;
+    max-width: 600px;
+  }
+
+  .rightBar {
+    border: solid #333c3f;
+    border-width: 0.2px;
+    width: 20%;
+    display: block;
+  }
+}
+
+/*------- Desktop-------------------------- */
+@media (max-width: 1280px) {
+  body {
+    background-color: #222;
+    color: salmon;
+  }
+
+  .navContainer {
+    background-color: black;
+    border: solid #333c3f;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* position: fixed; */
+  }
+
+  .left {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3px;
+  }
+
+  .mid {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3px;
+  }
+
+  .right {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3px;
+  }
+
+  .nlTab {
+    border: solid red;
+    border-width: 0.2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .mainContainer {
+    border: solid black;
+    height: 600vh;
+    display: flex;
+    justify-content: space-evenly;
+    border-width: 0.2px;
+  }
+
+  .leftBar {
+    border: solid #333c3f;
+    border-width: 0.2px;
+    width: 0%;
+    display: none;
+  }
+
+  .mainScrollContainer {
+    /* border: solid #333c3f; */
+    /* border-width: 0.2px; */
+    width: 70%;
+    display: block;
+  }
+
+  .rightBar {
+    border: solid #333c3f;
+    border-width: 0.2px;
+    width: 30%;
+    display: block;
+  }
+}
+
+/* -------------Ipad----------------------- */
+@media (max-width: 680px) {
+  body {
+    background-color: #222;
+    color: white;
+  }
+
+  .navContainer {
+    background-color: black;
+    border: solid #333c3f;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* position: fixed; */
+  }
+
+  .left {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3px;
+  }
+
+  .mid {
+    width: 40%;
+    display: none;
+    justify-content: space-evenly;
+    margin: 3px;
+  }
+
+  .right {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3px;
+  }
+
+  .nlTab {
+    border: solid red;
+    border-width: 0.2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .mainContainer {
+    border: solid #333c3f;
+    height: 600vh;
+    display: flex;
+    justify-content: space-evenly;
+    border-width: 0.2px;
+  }
+
+  .leftBar {
+    /* border: solid white; */
+    border-width: 0.2px;
+    width: 0%;
+    display: none;
+  }
+
+  .mainScrollContainer {
+    padding-top: 3vh;
+    /* border: solid black; */
+    /* border-width: 0.2px; */
+    width: 100%;
+    display: block;
+  }
+
+  .rightBar {
+    border: solid black;
+    border-width: 0.2px;
+    width: 0%;
+    display: none;
+  }
+}
+
+/* -----------Mobile ----------------------*/
+
+/* --------------------------------------- */
+.categoryContainer {
+  border: solid #333c3f;
+  margin-top: 10%;
+}
+
+.icon {
+  border: solid green;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.postContainer {
+  margin-bottom: 12vh;
+  width: 100%;
+  /* height:61vh; */
+  color: white;
+  /* box-shadow: 0.5rem 0.5rem 0.5rem #444; */
+  background-color: #111;
+}
+
+.postMain {
+  border: solid #333c3f;
+  border-width: 0.2px;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.postMain img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+  object-position: center;
+}
+
+.btnContainer {
+  /* border:solid #333C3F; */
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 8vh;
+  padding: 1rem;
+}
+
+.btn {
+  border: none;
+  background-color: #333;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+/* .btn {
+  border: solid white;
+  border-width: 0.2px;
+  width: 23%;
+  height: 25px;
+  background-color: #333c3f;
+  text-align: center;
+} */
+
+.catcher {
+  display: flex;
+  justify-content: space-between;
+  /* font-size: 12px; */
+  font-size: 1rem;
+  margin: 2em;
+  text-align: right;
+}
+.commentContainer {
+  /* border: solid lightblue; */
+  /* border-width: 0.2px; */
+  /* height:8vh; */
+  margin-top: 22px;
+}
+
+.postHeader {
+  background-color: #111;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
